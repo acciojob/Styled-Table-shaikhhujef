@@ -6,10 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+	<style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    table {
+      width: 50%;
+      border-collapse: collapse;
+      margin: 20px;
+    }
+
+    th, td {
+      border: 2px solid #3498db;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #3498db;
+      color: #fff;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tbody tr:hover {
+      background-color: #dff9fb;
+    }
+  </style>
 </head>
 <body>
-    <!-- add table here -->
-
+	<table>
+    <thead>
+		<tr>
+			<th>NAME</th>
+			<th>SKILLS</th>
+			<th>SAVED</th>
+			<th>DEATHS</th>
+			<th>REVIVES</th>
+			<th>WIN</th>
+		</tr>
+	</thead> <br>
+	<tbody>
+		<tr>
+			<td>Hackerman</td>
+			<td>10</td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+			<td>0</td>
+		</tr> <br>
+		<tr>
+			<td>Cool Doggo</td>
+			<td>13</td>
+			<td>4</td>
+			<td>8</td>
+			<td>7</td>
+			<td>1</td>
+		</tr> <br>
+		<tr>
+			<td>Andrews</td>
+			<td>19</td>
+			<td>2</td>
+			<td>10</td>
+			<td>11</td>
+			<td>0</td>
+		</tr><br>
+		<tr>
+			<td>Strawberry</td>
+			<td>2</td>
+			<td>9</td>
+			<td>3</td>
+			<td>5</td>
+			<td>1</td>
+		</tr><br>
+	</tbody>
+	</table>
         
 </body>
 </html>
